@@ -1,0 +1,40 @@
+body {
+	font-family: "Trebuchet MS",Arial;
+
+	background-color: #005DAA;
+	color: #010101;
+}
+.box {
+	text-align:center;
+}
+
+label.uploadBTN input[type="file"] {
+    position: fixed;
+    top: -1000px;
+}
+
+.uploadBTN {
+
+	width:150px;
+	text-align:center;
+    border: 0px solid #AAA;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background: #DDD;
+    display: inline-block;
+    margin: auto;
+	margin-top:75px;
+	font-size: 22px;
+}
+.uploadBTN:hover {
+    background: #CCC;
+}
+.uploadBTN:active {
+    background: #CCF;
+}
+.uploadBTN :invalid + span {
+    color: #FFFFFF;
+}
+.uploadBTN :valid + span {
+    color: #444444;
+}
