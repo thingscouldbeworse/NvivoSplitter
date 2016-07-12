@@ -27,16 +27,14 @@ function readFile (evt) {
 			console.log( content );
 
 			zip.file(filename, content);
-
 		}
-		
+
 		zip.generateAsync({type:"blob"})
 		.then(function(content) {
 		    // see FileSaver.js
 		    saveAs(content, "split_text.zip");
-		});
-
-		
+		});	
 	}
+
 	reader.readAsText(file)
 }
