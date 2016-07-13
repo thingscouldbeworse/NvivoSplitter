@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="style.css" type="text/css" media="all">
 </head>
 
+<title> NVivo Ready Splitter </title>
+
 <div class="box" >
 	<label class="uploadBTN">
 		<input type="file" id="file" name="file"  enctype="multipart/form-data" />
